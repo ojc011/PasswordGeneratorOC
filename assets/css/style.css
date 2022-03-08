@@ -17,56 +17,83 @@
       background-color: white;
       padding-top: 30px;
       padding: 30px;
+      border-radius: 15px;
    
     }
 
-    .box h2{
-        margin-bottom: 40px;
-        text-align: center;
-        font-size: 26px;
-        color: #015a96;
-        font-family: sans-serif;
-      }
-
-      
-input {
-    padding: 20px;
-    user-select: none;
-    height: 50px;
-    width: 400px;
-    border-radius: 6px;
-    border: none;
-    border: 2px solid #30D5C8;
-    outline: none;
-    font-size: 22px;
-    }
-   
-   input::placeholder{
-     font-size: 23px;
-    } 
-
-    #button {
-        font-family: sans-serif;
-        font-size: 15px;
-        margin-top: 40px;
-        border: 2px solid #30D5C8;
-        width: 155px;
-        height: 50px;
-        text-align: center;
-        background-color: #30D5C8;
-        display: flex;
-        color: rgb(255, 255, 255);
-        justify-content: center;
-        align-items: center;
+    input {
+        display: inline-block;
+        outline: 0;
         cursor: pointer;
-        border-radius: 5px;  
+        border-radius: 8px;
+        box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+        border: 1px solid #FCD200;
+        font-size: 14px;
+        height: 22px;
+        padding: 20px 20px;
+        text-align: center;
+        font-weight: 500;
+        color: #0F1111;
+        text-align: center;
+    }
+
+    div {
+        padding: 10px;
+        line-height: 2;
+        text-align: center;
+    }
+
+    .button1 {   
+        display: inline-block;
+        outline: 0;
+        border:0;
+        cursor: pointer;
+        text-decoration: none;
+        position: relative;
+        color: #000;
+        background: #fff;
+        line-height: 30px;
+        border-radius: 40px;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 600;
+        box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        transition: all 0.2s;
+    }
+
+    .button1:hover {
+        box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        transform: scale(1.01);
+    }
+
+    .button2 {
+        
+        display: inline-block;
+        outline: 0;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+        background: #FFD814;
+        border: 1px solid #FCD200;
+        font-size: 11px;
+        height: 22px;
+        padding: 0 6px;
+        text-align: center;
+        font-weight: 500;
+        color: #0F1111;
       }
+        
+    .button2:hover {
+            background: #F7CA00;
+            border-color: #F2C200;
+            box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    }
+    
+    
+        
+
+        
+       
+        
+
       
-       .btn2{
-         margin-left: 85px
-       }
-      
-      #button:hover {
-        color: white;
-        background-color: black;
-      }
